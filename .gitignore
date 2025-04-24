@@ -1,0 +1,43 @@
+# --- Node / Next.js ---
+node_modules/
+.next/
+out/
+*.log
+npm-debug.log*
+package-lock.json
+.env*
+.cache
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.env
+.venv/
+venv/
+venv310/
+env/
+*.egg-info/
+pip-log.txt
+
+# --- System / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Misc ---
+*.tgz
+coverage/
+*.tsbuildinfo
+.rpt2_cache/
+dist/
+build/
+*.pid
+*.seed
+*.pid.lock
+*.swp
+*.swo
